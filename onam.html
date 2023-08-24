@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XI B | Happy Onam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Quicksand&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./script/myscripts.js" defer></script> 
+    <style>
+        .maveli {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}   
+    body{
+        padding: 10px;
+    }
+    </style>
+</head>
+<body class="bg-warning">
+    <div class="loader-container">
+        <img class="maveli" src="./backgrounds/fl.jpg"  style=" padding-bottom: 100px;width: 397px; height: 639px; align-items: center;"></img>
+    </div>
+ <div id="content" style="display:none;">
+    <div class="">
+      <h1 style="text-align-last: center;"><B>ONAM SPECIAL</B></h1>
+    </div>
+    <section>
+        <div class="songs" style="padding: 10px;">
+            <a href="./songs.html" style="text-decoration: none;color: black;"><h3>ONAM SONGS</h3></a>
+        </div>
+        <a href="./songs.html"><div class="songsembed">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/6uALvtv4Drmq20K4Sp31Vh?utm_source=generator" width="100%" height="365" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+           
+        </div></a>
+    </section>
+    <section>
+        <div class="triva" style="padding-top: 10px;">
+            <h3>PLAY TRIVIA</h3>
+        </div>
+        <div class="tri">
+            <a href="https://quizizz.com/join/game/U2FsdGVkX19QGlcs4g2zYYrVPZzmX%252Fnd%252BRP9DuSD%252FpzFSs0F%252FixmzmmL%252B5NUKzBY?gameType=solo"><p>Play trivia on topic ONAM</p></a>
+        </div>
+    </section>
+    <section>
+        <div class="GAMES">
+            <h3>GAMES</h3>
+        </div>
+        <div class="sundari">
+            <a href="https://miro.com/app/board/uXjVMrGHpcI=/" style="text-decoration: none; color: black;"> <p> > Sundariku pottuthodal <i>(username : aaronshenny102.go@gmail.com, password : 'aaronshenny123')</i></p></a>
+            <a href="https://specials.manoramaonline.com/Children/2016/onam-game/onam.html" style="text-decoration: none; color: black;"> <p> > Game </p></a>
+
+        </div>
+    </section>
+</div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"> </script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+<script>
+    // Show the content after a delay
+    setTimeout(function() {
+        // Hide the loader
+        var loader = document.querySelector('.loader-container');
+        loader.style.display = 'none';
+
+        // Show the content
+        var content = document.getElementById('content');
+        content.style.display = 'block';
+    })//, 10000); // 5000 milliseconds = 5 seconds
+</script>
+</html>

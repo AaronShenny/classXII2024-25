@@ -8,7 +8,7 @@
         }
 
         body {
-            color: azure;
+            
             font-family: 'Quicksand', sans-serif;
             background-repeat: no-repeat;
             background-size: cover;
@@ -50,3 +50,28 @@
         }
         
 
+ /* Styling for the loader */
+ .loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* .loader-image {
+   
+}*/
+.maveli{
+    margin-left: 732.4px;
+    margin-top: 252.4px;
+    width: 2480px;
+    height: 3508px;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.songsembed{
+    padding: 10px;
+}
