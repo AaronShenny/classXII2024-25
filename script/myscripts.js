@@ -72,12 +72,12 @@
             .catch(error => console.log('Error:', error));
     
     
-        function changeBackgroundImage() {
-            var date = new Date();
-            var day = date.getDate();
-            var imageNumber = ((day - 1) % 3) + 1;
-            var imageUrl = 'backgrounds/' + imageNumber + '.jpg?' + Date.now();
-            document.body.style.backgroundImage = 'url(' + imageUrl + ')';
-        }
+        //function changeBackgroundImage() {
+          //  var date = new Date();
+          //  var day = date.getDate();
+        //    var imageNumber = ((day - 1) % 3) + 1;
+          //  var imageUrl = 'backgrounds/' + imageNumber + '.jpg?' + Date.now();
+            //document.body.style.backgroundImage = 'url(' + imageUrl + ')';
+       // }
         // Call the function to change the background image on page load
-        window.onload = changeBackgroundImage;
+       // window.onload = changeBackgroundImage;
